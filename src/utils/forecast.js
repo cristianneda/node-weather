@@ -20,7 +20,8 @@ const forecast = (latitude, longitude, callback) => {
 					body.current_weather.temperature +
 					' Celsius with a wind speed of ' +
 					body.current_weather.windspeed +
-					' Km/h '
+					' Km/h, wind direction is: ' +
+					body.current_weather.winddirection
 			);
 		}
 	});

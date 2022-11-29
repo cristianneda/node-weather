@@ -18,7 +18,7 @@ const forecast = (latitude, longitude, callback) => {
 				undefined,
 				'We have ' +
 					body.current_weather.temperature +
-					' Celsius with a wind speed of ' +
+					'  degrees Celsius with a wind speed of ' +
 					body.current_weather.windspeed +
 					' Km/h, wind direction is: ' +
 					body.current_weather.winddirection +

@@ -21,7 +21,20 @@ const forecast = (latitude, longitude, callback) => {
 					' Celsius with a wind speed of ' +
 					body.current_weather.windspeed +
 					' Km/h, wind direction is: ' +
-					body.current_weather.winddirection
+					body.current_weather.winddirection +
+					', Min Temp: ' +
+					body.daily.temperature_2m_min[0] +
+					', Max Temp: ' +
+					body.daily.temperature_2m_max[0] +
+					', Sunrise: ' +
+					body.daily.sunrise[0] +
+					', Sunset: ' +
+					body.daily.sunset[0] +
+					', Elevation: ' +
+					body.elevation +
+					', Precipitation sum of: ' +
+					body.daily.precipitation_sum[0] +
+					' mm'
 			);
 		}
 	});

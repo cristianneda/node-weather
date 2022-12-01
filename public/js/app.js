@@ -26,3 +26,4 @@ weatherForm.addEventListener('submit', (e) => {
 	);
 	searchElement.value = '';
 });
+// test

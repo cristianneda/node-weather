@@ -37,7 +37,7 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
 	res.render('help', {
 		helpText:
-			'Just type in an address and see the temperature and wind speed',
+			'Just type in an address and see weather information',
 		title: 'Help',
 		name: 'Cristian Neda',
 	});
